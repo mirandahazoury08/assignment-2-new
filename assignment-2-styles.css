@@ -1,0 +1,228 @@
+h1 {
+    font-family: fantasy;
+    size: 500px;
+    color: #2B328A;
+    margin: center;
+    position: absolute;
+    left: 33%;
+}
+
+h2 {
+    font-family: fantasy;
+    size: 100px;
+    color: black;
+    margin: Center;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 48%;
+}
+
+.box1 {
+    border: 1px solid #ccc;
+    padding: 30px;
+    background: #D7D989;
+    color: #BAA70F;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 0 0 6px 0;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    height: 40px;
+    width: 60px;
+    font-family: "JetBrains Mono", monospace;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: right;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 12px;
+
+}
+
+.box1:hover {
+    background-color: #B3B572;
+    cursor: pointer;
+}
+
+
+.box2 {
+    border: 1px solid #ccc;
+    padding: 30px;
+    color: grey;
+    background: #CDD2D4;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 0 0 6px 0;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    height: 40px;
+    width: 60px;
+    font-family: "JetBrains Mono", monospace;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 14px;
+}
+
+.box2:hover {
+    background-color: #A0A4A6;
+    cursor: pointer;
+}
+
+.box3 {
+    border: 1px solid #ccc;
+    padding: 30px;
+    color: #970D0D;
+    background: #D91313;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 0 0 6px 0;
+    position: absolute;
+    top: 52%;
+    left: 70%;
+    height: 40px;
+    width: 60px;
+    font-family: "JetBrains Mono", monospace;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.box3:hover {
+    background-color: #A60F0F;
+    cursor: pointer;
+}
+
+#ranking1 {
+    font-family: Sans-serif;
+    size: 15px;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+
+}
+
+#ranking2 {
+    font-family: Sans-serif;
+    size: 15px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+
+}
+
+#ranking3 {
+    font-family: Sans-serif;
+    size: 15px;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+
+#album-title1 {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 150%;
+    left: 170%;
+
+}
+
+#album-title2 {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 150%;
+    left: 0%;
+}
+
+#album-title3 {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 150%;
+    left: -150%;
+}
+
+.album-cover {
+    position: absolute;
+    top: 300%;
+
+}
+
+#bottom-box {
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+
+}
